@@ -1,0 +1,242 @@
+
+.notification
+{
+    /* Announcement */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 562px;
+gap: 10px;
+
+width: 1440px;
+height: 37px;
+
+/* PRIMARY/SKY BLUE */
+background: #2F80ED;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.data
+{
+    /* Next batch starts in ⌛ 22 Days, Hurry! ️ */
+
+width: 272px;
+height: 21px;
+
+font-family: 'ABeeZee';
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+/* .landing
+{
+    /* Landing */
+
+/* Auto layout */
+/* display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: relative;
+width: 1440px;
+height: 3413px;
+
+
+} */ 
+
+.hero
+{
+    /* Hero Left */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 35px;
+
+position: absolute;
+width: 711px;
+height: 308px;
+left: 110px;
+top: 226px;
+
+
+}
+
+.hero_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 35px;
+    position: absolute;
+    width: 711px;
+    height: 308px;
+    left: -46px;
+    top: 9px;
+}
+.hero_text
+{
+    /* Hero TExt */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 674px;
+height: 196px;
+
+mix-blend-mode: normal;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame1
+{
+    /* Frame 1000001696 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 674px;
+height: 130px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame2 p
+{
+    /* Launch your career with our */
+
+width: 638px;
+height: 65px;
+
+font-family: 'ABeeZee';
+font-style: italic;
+font-weight: 400;
+font-size: 50px;
+line-height: 130%;
+/* identical to box height, or 65px */
+letter-spacing: -0.015em;
+
+/* BLACK */
+color: #2B2F34;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame2 .line2
+{
+    /* Full Stack Developer Courses */
+
+width: 674px;
+height: 65px;
+
+font-family: 'ABeeZee';
+font-style: italic;
+font-weight: 400;
+font-size: 50px;
+line-height: 130%;
+/* identical to box height, or 65px */
+letter-spacing: -0.015em;
+
+/* PRIMARY / SKY BLUE */
+color: #2F80ED;
+
+border: 1px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.hero_right
+{
+    /* CTA Form */
+
+position: absolute;
+width: 415px;
+height: 496px;
+left: 917px;
+top: 197px;
+
+
+}
+
+.frame_right
+{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 28px 24px 32px;
+        gap: 28px;
+        position: absolute;
+        width: 415px;
+        height: 496px;
+        left: -36px;
+        top: -269px;
+        background: #FFFFFF;
+        box-shadow: 0px 25px 54px rgba(0, 0, 0, 0.12);
+        border-radius: 18px;
+    
+    
+}
+
+.frame_right .shadow
+{
+    /* Shadow Gradient */
+
+position: absolute;
+width: 415px;
+height: 430px;
+left: 0px;
+top: 0px;
+
+filter: blur(80px);
+
+}
