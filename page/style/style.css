@@ -10,7 +10,7 @@ align-items: flex-start;
 padding: 8px 562px;
 gap: 10px;
 
-width: 1440px;
+width: 1500px;
 height: 37px;
 
 /* PRIMARY/SKY BLUE */
@@ -227,7 +227,7 @@ top: 197px;
     
 }
 
-.frame_right
+.frame_right .shadow
 {
     /* Shadow Gradient */
 
@@ -238,5 +238,146 @@ left: 0px;
 top: 0px;
 
 filter: blur(80px);
+
+}
+
+.frame2_right
+{
+    /* Frame 1000001626 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 291px;
+height: 151px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame3_right
+{
+    /* Frame 1000001630 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 7px;
+
+width: 291px;
+height: 151px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame3_right .first{
+    /* Start Attending Live Classes for Free! */
+
+width: 291px;
+height: 96px;
+
+font-family: 'ABeeZee';
+font-style: italic;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* or 48px */
+text-align: center;
+letter-spacing: -0.015em;
+
+/* BLACK */
+color: #2B2F34;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame12
+{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        width: 674px;
+        height: 130px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        justify-content: flex-start;
+   
+}
+
+.frame_center
+{
+    /* Frame 1000001625 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+
+width: 366px;
+height: 118px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    width: 368px;
+    vertical-align: middle;
+}
+
+
+.below
+{
+/* Frame 1000001628 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+width: 367px;
+height: 111px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
 
 }
