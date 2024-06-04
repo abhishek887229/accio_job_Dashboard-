@@ -381,3 +381,139 @@ flex-grow: 0;
 
 
 }
+
+.course
+{
+/* 3. Course We Offer */
+
+width: 1533px;
+height: 864px;
+
+background: #ECF8FF;
+position:relative;
+top: 864px;
+
+}
+
+.course_title
+{
+    /* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 1533px;
+height: 83px;
+left: calc(50% - 1500px/2 + 0.5px);
+top: 80px;
+
+
+}
+
+.course_title p{
+   background: linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
+   
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+}
+
+.course_title h1{
+    color: #2F80ED; }
+
+.course_card
+
+{
+    /* Course Cards */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 21px;
+
+position: absolute;
+width: 1533px;
+height: 563px;
+left: 280px;
+top: 223px;
+
+
+}
+
+.course_left
+{
+    /* Sapling Card */
+
+box-sizing: border-box;
+
+width: 498px;
+height: 563px;
+
+background: #FFFFFF;
+/* PRIMARY/SKY BLUE */
+
+border-radius: 9px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.course_right
+{
+    /* Pioneer Card */
+
+box-sizing: border-box;
+
+width: 498px;
+height: 563px;
+
+background: #FFFFFF;
+border: 1px solid #E2E2E2;
+border-radius: 9px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.course_left:hover
+{
+    border: 2px solid #2F80ED;
+}
+
+.course_right:hover
+{
+    border: 2px solid #2F80ED;
+}
+
+.course_left_title
+{
+    /* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 296px;
+height: 107px;
+left: calc(50% - 296px/2 + 0.5px);
+top: 31px;
+
+
+}
+
